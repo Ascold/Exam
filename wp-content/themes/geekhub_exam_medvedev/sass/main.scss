@@ -2,6 +2,8 @@
 
 @import 'utils/variables';
 
+@import 'mixins/mixins';
+
 @import 'base/typography';
 
 @import 'layout/grid';
@@ -11,5 +13,9 @@
 @import 'pages/home';
 
 @import 'themes/theme';
+
+@import 'media/media-header';
+@import 'media/media-home';
+@import 'media/media-footer';
 
 
