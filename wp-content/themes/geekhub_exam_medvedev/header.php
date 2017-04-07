@@ -39,6 +39,7 @@
 <!--			--><?php
 //			endif; ?>
             <?php echo get_header_image_tag(); ?>
+            <img src="/images/anna-logo-200.png">
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
