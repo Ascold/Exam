@@ -1,0 +1,48 @@
+.front-page {
+    text-align: center;
+    .section-why-us {
+        .container-inner {
+            display: flex;
+            flex-flow: row wrap;
+            &>div {
+                width: 50%;
+            }
+        }
+    }
+
+    .section-we-are-offering {
+        .offer-wrapper {
+            display: inline-block;
+            @include clearfix;
+            .offer-inner {
+                float: left;
+            }
+        }
+    }
+    .section-latest-work {
+        .tab-title {
+            @include clearfix;
+            display: inline-block;
+            & > li {
+                float: left;
+                padding: 5px 10px;
+                cursor: pointer;
+            }
+        }
+        #tabs {
+            .tab-title {
+                .active {
+                    background-color: #1ccacd;
+                }
+            }
+            .tab-items {
+                li {
+                    display: none
+                }
+                .active {
+                    display: block;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+header#masthead {
+    padding: 17px 0;
+    .site-branding {
+        float: left;
+    }
+    .main-navigation {
+        padding-top: 10px;
+        float: right;
+        width: auto;
+        clear: none !important;
+    }
+}

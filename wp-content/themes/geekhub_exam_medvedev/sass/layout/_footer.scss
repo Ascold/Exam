@@ -1,0 +1,16 @@
+footer#colophon {
+    .featured-clients {
+        img {
+            width: auto;
+            max-width: 100%;
+        }
+    }
+    .contact-wrapper {
+        display: flex;
+        flex-flow: row wrap;
+        .contact-inner {
+            width: 50%;
+        }
+    }
+
+}
